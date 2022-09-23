@@ -71,7 +71,6 @@ la_df =
     abs_norm = abs(norm)
   )
 
-ggplot(la_df, aes(x = abs_norm)) + geom_histogram()
 
 median_norm = median(pull(la_df, norm))
 ```
